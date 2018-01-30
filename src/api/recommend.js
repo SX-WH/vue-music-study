@@ -13,5 +13,6 @@ export function getRecommend() {
     needNewCode: 1
   })
   // console.log(jsonp(url, data, options))
+
   return jsonp(url, data, options)
 }

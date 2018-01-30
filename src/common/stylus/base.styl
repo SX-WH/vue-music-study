@@ -1,0 +1,30 @@
+@import "variable.styl"
+
+body, html
+  line-height: 1
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback'
+  user-select: none
+  -webkit-tap-highlight-color: transparent
+  background: $color-background
+  color: $color-text
+
+.tc
+  text-align: center
+
+.fl
+  float: left
+
+.fr
+  float: right
+
+/*清除浮动*/
+.clearfloat:after
+  display: block
+  clear: both
+  content: ""
+  visibility: hidden
+  height: 0
+
+
+.color-ffcd32
+  color: #ffcd32

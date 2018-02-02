@@ -12,6 +12,7 @@
 
 <script type="text/ecmascript-6">
 // 引入better-scroll
+
 import BScroll from 'better-scroll'
 
 import {addClass} from 'common/js/dom'
